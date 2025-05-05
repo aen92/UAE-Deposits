@@ -1,0 +1,46 @@
+name: Refresh deposit rates
+
+# ─── when to run ──────────────────────────────────────────────
+on:
+  schedule:
+    - cron:  '0 */12 * * *'          # every 12 hours
+  workflow_dispatch:                 # manual run button
+
+# ─── what to do ───────────────────────────────────────────────
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false   # we’ll push with a PAT
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run refresh_data()
+        run: |
+          python - <<'PY'
+          import data_library as dl
+          dl.refresh_data()
+          PY
+
+      - name: Commit updated CSV
+        env:
+          GIT_EMAIL:  "bot@github"
+          GIT_NAME:   "Auto Scraper"
+          PAT_TOKEN:  ${{ secrets.PAT_TOKEN }}
+        run: |
+          git config user.email "$GIT_EMAIL"
+          git config user.name  "$GIT_NAME"
+          git add deposit_products.csv
+          git commit -m "auto: refresh rates" || exit 0
+          git push https://$PAT_TOKEN@github.com/${{ github.repository }} HEAD:main
