@@ -1,17 +1,17 @@
 provider,product_name,interest_rate_pct,rate_type,compounding,min_deposit,max_deposit,tenure,early_access,currency,url,last_scraped
-StashAway,StashAway Simple,3.1,projected,daily,0.0,,fully liquid,no penalty,SGD,https://www.stashaway.ae/simple,2025-12-25T12:52:40.300231+00:00
-StashAway,StashAway Simple Guaranteed,2.45,fixed,none,0.0,,1/3/6/12 months,not permitted,SGD,https://www.stashaway.ae/simple-guaranteed,2025-12-25T12:52:40.300231+00:00
-StashAway,StashAway Simple Plus,3.6,projected,daily,0.0,,fully liquid,no penalty,SGD,https://www.stashaway.ae/simple-plus,2025-12-25T12:52:40.300231+00:00
-Wio,Wio Fixed Deposit,4.75,fixed,none,10000.0,,1 month (also 3/6/12),no penalty ≤3m,AED,https://wio.io/save,2025-12-25T12:52:40.300231+00:00
-Wio,Wio On‑Demand Savings,3.5,variable,real‑time,0.0,,fully liquid,no penalty,USD & AED,https://wio.io/save,2025-12-25T12:52:40.300231+00:00
-Sarwa,Sarwa Save,,partner yield,annualised,500.0,,fully liquid,no penalty,USD,https://www.sarwa.co,2025-12-25T12:52:40.300231+00:00
-Mashreq,Mashreq NEO Fixed Deposit,2.45,fixed,none,10000.0,,1m – 1y,2% penalty,AED USD GBP,https://www.mashreq.com/en/uae/neo/accounts/term-deposits/fixed-deposit/,2025-12-25T12:52:40.300231+00:00
-Mashreq,Mashreq NEO Unfixed Deposit,1.88,fixed,none,10000.0,,6m – 5y,partial withdrawals allowed,AED USD,https://www.mashreq.com/en/uae/neo/accounts/term-deposits/unfixed-deposit/,2025-12-25T12:52:40.300231+00:00
-Mashreq,Mashreq NEO Wakala Deposit,1.98,profit,not applicable,10000.0,,1 – 24m,profit based on last tenor,AED USD EUR GBP,https://www.mashreq.com/en/uae/neo/accounts/term-deposits/wakala-deposit/,2025-12-25T12:52:40.300231+00:00
-Emirates NBD,ENBD FlexiDeposit,3.5,fixed,none,50000.0,,≥3m,unlimited no penalty,AED USD GBP etc.,https://www.emiratesnbd.com/en/flexi-deposit,2025-12-25T12:52:40.300231+00:00
-Emirates NBD,ENBD RegulaReturns Deposit,3.5,fixed,payout,50000.0,,3m – 5y,reduced interest,AED,https://www.emiratesnbd.com/en/regular-returns-fixed-deposit,2025-12-25T12:52:40.300231+00:00
-Emirates NBD,ENBD Fixed Deposit,2.1,fixed,none,10000.0,,1m – 5y,1% rate reduction,AED USD GBP SAR AUD CAD,https://www.emiratesnbd.com/en/fixed-deposit,2025-12-25T12:52:40.300231+00:00
-Emirates NBD,ENBD FlexiSweep Deposit,2.2,fixed,none,1000.0,,≥3m,reduced rate if <6m,AED,https://www.emiratesnbd.com/en/flexisweep-deposit,2025-12-25T12:52:40.300231+00:00
-ADCB,ADCB Century Deposit (USD),4.15,fixed,none,5000.0,,500d,1% penalty / no interest <6m,USD,https://www.adcb.com/en/personal/bank/deposits/century-deposit,2025-12-25T12:52:40.300231+00:00
-ADCB,ADCB Advantage FD (AED),3.65,fixed,none,50000.0,,1m – 500d,penalties apply,AED,https://www.adcb.com/en/personal/bank/deposits/advantage-fd,2025-12-25T12:52:40.300231+00:00
-Wahed,Wahed Save,,variable,annualised,,,fully liquid,no penalty,USD,https://www.wahed.com/uae,2025-12-25T12:52:40.300231+00:00
+StashAway,StashAway Simple,3.1,projected,daily,0.0,,fully liquid,no penalty,SGD,https://www.stashaway.ae/simple,2025-12-26T02:03:05.636798+00:00
+StashAway,StashAway Simple Guaranteed,2.45,fixed,none,0.0,,1/3/6/12 months,not permitted,SGD,https://www.stashaway.ae/simple-guaranteed,2025-12-26T02:03:05.636798+00:00
+StashAway,StashAway Simple Plus,3.6,projected,daily,0.0,,fully liquid,no penalty,SGD,https://www.stashaway.ae/simple-plus,2025-12-26T02:03:05.636798+00:00
+Wio,Wio Fixed Deposit,4.75,fixed,none,10000.0,,1 month (also 3/6/12),no penalty ≤3m,AED,https://wio.io/save,2025-12-26T02:03:05.636798+00:00
+Wio,Wio On‑Demand Savings,3.5,variable,real‑time,0.0,,fully liquid,no penalty,USD & AED,https://wio.io/save,2025-12-26T02:03:05.636798+00:00
+Sarwa,Sarwa Save,,partner yield,annualised,500.0,,fully liquid,no penalty,USD,https://www.sarwa.co,2025-12-26T02:03:05.636798+00:00
+Mashreq,Mashreq NEO Fixed Deposit,2.45,fixed,none,10000.0,,1m – 1y,2% penalty,AED USD GBP,https://www.mashreq.com/en/uae/neo/accounts/term-deposits/fixed-deposit/,2025-12-26T02:03:05.636798+00:00
+Mashreq,Mashreq NEO Unfixed Deposit,1.88,fixed,none,10000.0,,6m – 5y,partial withdrawals allowed,AED USD,https://www.mashreq.com/en/uae/neo/accounts/term-deposits/unfixed-deposit/,2025-12-26T02:03:05.636798+00:00
+Mashreq,Mashreq NEO Wakala Deposit,1.98,profit,not applicable,10000.0,,1 – 24m,profit based on last tenor,AED USD EUR GBP,https://www.mashreq.com/en/uae/neo/accounts/term-deposits/wakala-deposit/,2025-12-26T02:03:05.636798+00:00
+Emirates NBD,ENBD FlexiDeposit,3.5,fixed,none,50000.0,,≥3m,unlimited no penalty,AED USD GBP etc.,https://www.emiratesnbd.com/en/flexi-deposit,2025-12-26T02:03:05.636798+00:00
+Emirates NBD,ENBD RegulaReturns Deposit,3.5,fixed,payout,50000.0,,3m – 5y,reduced interest,AED,https://www.emiratesnbd.com/en/regular-returns-fixed-deposit,2025-12-26T02:03:05.636798+00:00
+Emirates NBD,ENBD Fixed Deposit,2.1,fixed,none,10000.0,,1m – 5y,1% rate reduction,AED USD GBP SAR AUD CAD,https://www.emiratesnbd.com/en/fixed-deposit,2025-12-26T02:03:05.636798+00:00
+Emirates NBD,ENBD FlexiSweep Deposit,2.2,fixed,none,1000.0,,≥3m,reduced rate if <6m,AED,https://www.emiratesnbd.com/en/flexisweep-deposit,2025-12-26T02:03:05.636798+00:00
+ADCB,ADCB Century Deposit (USD),4.15,fixed,none,5000.0,,500d,1% penalty / no interest <6m,USD,https://www.adcb.com/en/personal/bank/deposits/century-deposit,2025-12-26T02:03:05.636798+00:00
+ADCB,ADCB Advantage FD (AED),3.65,fixed,none,50000.0,,1m – 500d,penalties apply,AED,https://www.adcb.com/en/personal/bank/deposits/advantage-fd,2025-12-26T02:03:05.636798+00:00
+Wahed,Wahed Save,,variable,annualised,,,fully liquid,no penalty,USD,https://www.wahed.com/uae,2025-12-26T02:03:05.636798+00:00
